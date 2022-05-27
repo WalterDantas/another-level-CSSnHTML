@@ -1,58 +1,25 @@
-.grid {
-display: grid;
-gap: 20px;
-grid-template-columns: 1fr 1fr;
-}
-
-.foto {
-
-grid-column: 1/-1;
-
-}
-
-
-body {
-font-family: Arial;
-margin: 40px;
-}
-
-
-h1, p {
+.flex {
   
-  margin: 0px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 
 }
 
-.comprar {
+.grid {
 
-background: #a8f;
-padding: 10px 20px;
-color: #103;
-text-decoration: none;
-border-radius: 4px;
-font-size: 20px;
-width: fit-content;
-}
-
-h1 {
-font-size: 48px;
-line-height: 1;
-}
-
-p, span {
-font-size: 20px;
-}
-
-img {
-max-width: 100%;
-border-radius: 4px;
+margin-top: 60px;
+display: grid;
+grid-template-columns: repeat(auto-fit,200px);
+gap: 20px;
 
 }
 
-.preco {
+h2 {
 
-background: #ddd;
-padding: 5px 10px;
-border-radius: 4px;
-width: fit-content;
+background: #e7e7e7;
+border: 1px solid #d7d7d7;
+padding:20px;
+margin: 0px;
+
 }
