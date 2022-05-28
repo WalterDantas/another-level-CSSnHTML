@@ -6,6 +6,17 @@
 
 }
 
+p {background: #d7d7d7; border: #aaa;}
+
+.fixo {
+position: fixed;
+bottom: 20px;
+left: 450px;
+right: 450px;
+text-align: center;
+
+}
+
 .grid {
 
 margin-top: 60px;
