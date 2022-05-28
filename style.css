@@ -30,7 +30,7 @@ a {
 
 .botao {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 30px;
   background: #ee2211;
   color: #ffffff;
   text-decoration: none;
@@ -56,11 +56,44 @@ margin: 0px;
 }
 
 .conteudo {
-  
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
-  
+}
+
+.introducao {
+background: #ffffff;
+padding: 40px;
+text-align: right;
+display: grid;
+align-content: center;
+gap: 20px;
+justify-items: end;
+}
+
+.detalhe {
+
+width: 60px;
+height: 4px;
+background: #ee2211;
+position: absolute;
+top: 30px;
+left: 468px;
+}
+
+.vantagens {
+display: grid; 
+gap: 20px;
+background: #ffffff;
+
+}
+
+h2 {
+  align-self: flex-end;
+color: #c6c6c6;
+font-size: 64px;
+text-transform: uppercase;
 
 
 }
