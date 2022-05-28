@@ -83,17 +83,34 @@ left: 468px;
 }
 
 .vantagens {
-display: grid; 
-gap: 20px;
 background: #ffffff;
+padding: 40px;
 
 }
 
+.vantagens-item {
+display: grid;
+grid-template-columns: auto 1fr;
+gap: 10px 20px;
+padding: 20px;
+}
+
+.vantagens-item p {grid-column: 2;}
+
+
 h2 {
-  align-self: flex-end;
+  align-self: center;
 color: #c6c6c6;
 font-size: 64px;
 text-transform: uppercase;
+padding: 40px;
+text-align: right;
+}
 
-
+.rodape {
+background: #ffffff;
+width: 100%;
+text-align: center;
+padding: 40px;
+box-sizing: border-box;
 }
